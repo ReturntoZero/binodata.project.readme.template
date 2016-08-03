@@ -62,6 +62,7 @@
 ## 資料定義
 
 ### Config Status
+
 |値(Short)  |文字顯示|
 |-----------|-------|
 |-1         |None   |
@@ -71,26 +72,6 @@
 |3          |Completed |
 |4          |Failed |
 
-#### Enum 程式定義
-```C#
- public enum ConfigStatusEnum
- {
-        [Display(Name = "Created")]
-        Created = 0,
-
-        [Display(Name = "Pending")]
-        Pending = 1,
-
-        [Display(Name = "Processing")]
-        Processing = 2,
-
-        [Display(Name = "Completed")]
-        Completed = 3,
-
-        [Display(Name = "Failed")]
-        Failed = 4,
- }
-```
 
 ### Firmware Status
 
@@ -103,26 +84,6 @@
 |3          |Completed |
 |4          |Failed |
 
-#### Enum 程式定義
-```C#
-public enum FirmwareStatusEnum
-    {
-        [Display(Name = "Created")]
-        Created = 0,
-
-        [Display(Name = "Pending")]
-        Pending = 1,
-
-        [Display(Name = "Processing")]
-        Processing = 2,
-
-        [Display(Name = "Completed")]
-        Completed = 3,
-
-        [Display(Name = "Failed")]
-        Failed = 4,
-    }
-```
 
 ### Device Use Status
 
@@ -136,45 +97,3 @@ public enum FirmwareStatusEnum
 |4          |Disposed |
 |5          |Recalled |
 
-#### Enum 程式定義
-
-```C#
-public enum DeviceUseStatusEnum
-    {
-        /// <summary>
-        /// 新機器
-        /// </summary>
-        [Display(Name = "New")]
-        New = 0,
-
-        /// <summary>
-        /// 已指派
-        /// </summary>
-        [Display(Name = "In Use")]
-        InUse = 1,
-
-        /// <summary>
-        /// 維護中
-        /// </summary>
-        [Display(Name = "RMA")]
-        Maintenance = 2,
-
-        /// <summary>
-        /// 暫停使用
-        /// </summary>
-        [Display(Name = "Suspended")]
-        Suspended = 3,
-
-        /// <summary>
-        /// 報廢
-        /// </summary>
-        [Display(Name = "Disposed")]
-        Disposed = 4,
-
-        /// <summary>
-        /// 暫停使用
-        /// </summary>
-        [Display(Name = "Recalled")]
-        Recalled = 5,
-    }
-```
