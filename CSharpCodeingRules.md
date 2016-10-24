@@ -14,6 +14,7 @@
 ```
 
 * Camel
+
 ```C Sharp
 
     helloWorld;
@@ -24,10 +25,10 @@
 * [參考](http://www.dotblogs.com.tw/ouch1978/archive/2010/10/30/c-sharp-naming-convention.aspx)
 
 |種類      						|命名規則  |範例 |注意事項|
-|-----------------------------|---------|----|------|
-|Project File  					|Pascal   |Math.Algorithm.csproj | |
+|-------------------------------|---------|-----|-------|
+|Project File  					|Pascal   |Math.Algorithm.csproj |  |
 |Source File     				|Pascal	| RuleSetup.cs | 保持檔案名稱與Class名稱一致|
-|Resource or Embedded File    |Pascal	| TestPicture.jpg | |
+|Resource or Embedded File    	|Pascal	| TestPicture.jpg | |
 |Namespace     					|Pascal	| MyCompany.Wpf.Controls|儘量使用"公司名稱.專案名稱/技術名稱.功能分類/子類別"做為命名準則|
 |Class or Struct     			|Pascal	| CustomAttribute| 使用名詞命名，並使用基底類別名稱做為後置詞|
 |Interface     					|Pascal	|ICustomer | 使用前置詞"I"|
