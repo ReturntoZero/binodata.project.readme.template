@@ -1,7 +1,12 @@
 # Binodata C Sharp Coding Rules
-給Binodata工程師參考的C Sharp 開發規範
 
-## 命名
+說明：給Binodata工程師參考的C Sharp 開發規範
+
+## 前言
+為了讓後進工程師能夠輕鬆了解Binodata專案的寫作框架與邏輯，進而能夠維護與擴充過去專案與產品之程式碼，而規範此命名規則。此外，也能增進工程師之間的合作，讓彼此能夠交流程式碼，並快速理解其他工程師的程式邏輯，以增進合作默契與效率。
+
+
+## 命名種類介紹
 
 兩種命名種類，Pascal, Camel
 
@@ -40,6 +45,27 @@
 |Constant or Static Field     |Pascal	|Name | 與Field處理方式相同|
 |Enum     						|Pascal	|EncodeType | 裡面包含選項也是使用Pascal命名法|
 |Delegate or Event|Pascal|public event EventHandler LoadPlugin|全都使用 PascalCase|
+
+
+## 各項命名規範
+
+### 專案命名規範
+
+* 資料庫類型的專案：以公司開頭，中間名以服務或專案名稱，最後用Entities 或 DataAccess 結尾
+
+```<CSharp>
+    //Sample
+    //公司.服務名稱.資料庫類型
+    Binodata.EComm.Entities
+    Binodata.EComm.DataAccess
+```
+
+* Web 類型的專案：
+
+
+### 資料夾或Namespace命名規範
+
+### 類別命名規範
 
 
 ## 版本發佈管理
