@@ -1,7 +1,7 @@
 # Binodata C Sharp Coding Rules
 給Binodata工程師參考的C Sharp 開發規範
 
-# 命名
+## 命名
 
 兩種命名種類，Pascal, Camel
 
