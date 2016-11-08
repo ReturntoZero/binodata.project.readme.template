@@ -5,6 +5,7 @@
 ## 前言
 為了讓後進工程師能夠輕鬆了解Binodata專案的寫作框架與邏輯，進而能夠維護與擴充過去專案與產品之程式碼，而規範此命名規則。此外，也能增進工程師之間的合作，讓彼此能夠交流程式碼，並快速理解其他工程師的程式邏輯，以增進合作默契與效率。
 
+命名是軟體開發重要的基礎，好的命名
 
 ## 命名種類介紹
 
@@ -49,7 +50,50 @@
 
 ## 各項命名規範
 
+
+### 方案檔命名規範
+
+* 方案檔命名：以公司開頭，服務或專案名稱結尾
+
+```<CSharp>
+    //Sample
+    //公司.服務或專案名稱
+    Binodata.EComm
+```
+
 ### 專案命名規範
+
+* Web 類型的專案：以公司開頭，中間名以服務或專案名稱，最後用Web 結尾
+
+```<CSharp>
+    //Sample
+    //公司.服務名稱.Web類型
+    Binodata.EComm.Web
+```
+
+* Web API 類型的專案：以公司開頭，中間名以服務或專案名稱，最後用WebAPI 結尾
+
+```<CSharp>
+    //Sample
+    //公司.服務名稱.Web類型
+    Binodata.EComm.WebAPI
+```
+
+* 商業邏輯層的專案：以公司開頭，中間名以服務或專案名稱，最後用Business結尾
+
+```<CSharp>
+    //Sample
+    //公司.服務名稱.商業邏輯層
+    Binodata.EComm.Business
+```
+
+* 服務共用模組或的專案：以公司開頭，中間名以服務或專案名稱，最後用Library結尾
+
+```<CSharp>
+    //Sample
+    //公司.服務名稱.共用服務與模組
+    Binodata.EComm.Library
+```
 
 * 資料庫類型的專案：以公司開頭，中間名以服務或專案名稱，最後用Entities 或 DataAccess 結尾
 
@@ -60,12 +104,36 @@
     Binodata.EComm.DataAccess
 ```
 
-* Web 類型的專案：
+### 常用檔案與類別命名規範
 
+* MVC Controller :  以Controller 結尾
 
-### 資料夾或Namespace命名規範
+```<CSharp>
+    //Sample
+    HomeController
+```
 
-### 類別命名規範
+* MVC View :  以View 結尾
+
+```<CSharp>
+    //Sample
+    HomeView
+```
+
+* MVC Partial View :  底線開頭，以Partial 結尾
+
+```<CSharp>
+    //Sample
+    _HomePartial
+```
+
+* 資料儲存類別 :  以Dao 結尾
+
+```<CSharp>
+    //Sample
+    ProductDao
+```
+
 
 
 ## 版本發佈管理
