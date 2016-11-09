@@ -1,6 +1,7 @@
-# Binodata C Sharp Coding Rules
+# Binodata C# Coding Rules
 
 說明：給Binodata工程師參考的C Sharp 開發規範
+適用語法：C#
 
 ## 前言
 為了讓後進工程師能夠輕鬆了解Binodata專案的寫作框架與邏輯，進而能夠維護與擴充過去專案與產品之程式碼，而規範此命名規則。此外，也能增進工程師之間的合作，讓彼此能夠交流程式碼，並快速理解其他工程師的程式邏輯，以增進合作默契與效率。
