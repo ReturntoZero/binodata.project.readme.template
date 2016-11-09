@@ -1,4 +1,4 @@
-# binodata.project.readme.template
+# Binodata Project Readme Template
 給公司工程師參考撰寫專案說明文件
 
 # Binodata .Net 專案開發 Read Me 手冊範本
