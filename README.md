@@ -20,7 +20,7 @@
 ## 開發規範
 * [請參考資料夾-XXX/ooo/開發規範](url)
 
-## 方案檔資料夾說明
+## 方案檔資料夾說明範例
 
 ### Core
 * Core 資料夾專門放主要商業行為邏輯，共用的專案。
@@ -105,3 +105,48 @@
    * [GitHub](https://github.com/Pixabay/JavaScript-autoComplete)
    * [MIT License](http://www.opensource.org/licenses/mit-license.php)
 
+
+## Web API服務使用範例
+
+### 取得Binodata 服務資料
+
+* 取得Binodata 服務資料的Web API 的URL
+
+```javascript
+http://localhost/service/api/binodata/binoserver
+```
+
+* 回傳Json資料範例
+
+```javascript
+[
+  {
+    "ServiceCode": 1,
+    "ServicName": "BinodataMath"
+  },
+  {
+    "ServiceCode": 2,
+    "ServicName": "BinodataDB"
+  },
+  {
+    "ServiceCode": 3,
+    "ServicName": "BinodataCloud"
+  }
+  
+]
+```
+
+## Library API 使用範例
+
+### 方法名稱
+
+#### 用途描述
+
+* 加法計算
+* 回傳計算結果
+
+#### Sample Code
+
+```cs
+int c = Calculator.Add(a, b);
+```
