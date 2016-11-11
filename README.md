@@ -8,11 +8,57 @@
 * 可以參考如下方式撰寫專案建置與說明文件，與該專案維護與運行時注意事項。
 
 
-## 環境
+## 專案需求說明
+* [請參考資料夾-XXX/ooo/02.需求與架構分析](url)
+
+## 開發詳細規格
+* [請參考資料夾-XXX/ooo/02.需求與架構分析](url)
+
+## 專案相關工具與Web API/Services使用方式
+* [請參考資料夾-XXX/ooo/03.開發](url)
+
+## 開發規範
+* [請參考資料夾-XXX/ooo/開發規範](url)
+
+## 方案檔資料夾說明
+
+### Core
+* Core 資料夾專門放主要商業行為邏輯，共用的專案。
+
+### DataAccess
+
+* DataAccess 資料夾專門放與資料庫相關的處理專案
+
+### Solution Items
+
+* Solution Items 資料夾專門放方案檔的說明，README.md
+
+### Test
+
+* Test 資料夾專門放測試專案，README.md
+
+
+### Web
+
+* Web 資料夾專門放Web，Web Api專案，README.md
+
+## 專案檔說明
+
+|專案名稱                 |說明                       |備註|
+|------------------------|---------------------------|--|
+|Binodata.QQOO.Member.Web|娃娃機會員雲端管理系統專案    | |
+|Binodata.QQOO.Admin.Web|娃娃機裝置管理系統專案| |
+|Binodata.IoT.Library|IoT 系統所需要使用的專案            |於另一個Git儲存庫，[連結](https://bitbucket.org/binodataiot/binodata.iot.library)|
+
+
+
+## 系統環境
+
+* 資料庫環境: SQL Server 2014
+
+## 開發環境
 
 * 開發環境 Visual Stdio 2015
-* 資料庫環境: SQL Server 2014
-* Entity Framework 6.1.3
 
 ## 建置作業
 1. 在方案上按下滑鼠右鍵，選擇 Restore Nuget Packages
@@ -47,56 +93,15 @@
 * 資料庫: AWS RDS
 * 主機: AWS EC2 (Windows Server 2012)
 
-# .Net 套件
+## 套件說明
+
+### .Net 套件
 * 專案套件皆使用Nuget套件統一管理
 * 若需要詳細版本，請參閱個專案的packages.config
 
-# Javascript 套件
+### Javascript 套件
 1. AutoComplete.js
    * [網站](https://goodies.pixabay.com/javascript/auto-complete/demo.html)
    * [GitHub](https://github.com/Pixabay/JavaScript-autoComplete)
    * [MIT License](http://www.opensource.org/licenses/mit-license.php)
-
-   
-
-
-# 開發
-
-## 資料定義
-
-### Config Status
-
-|値(Short)  |文字顯示|
-|-----------|-------|
-|-1         |None   |
-|0          |Created|
-|1          |Pending |
-|2          |Processing |
-|3          |Completed |
-|4          |Failed |
-
-
-### Firmware Status
-
-|値(Short)  |文字顯示|
-|-----------|-------|
-|-1         |None   |
-|0          |Created|
-|1          |Pending |
-|2          |Processing |
-|3          |Completed |
-|4          |Failed |
-
-
-### Device Use Status
-
-|値(Short)  |文字顯示|
-|-----------|-------|
-|-1         |None   |
-|0          |New    |
-|1          |In Use |
-|2          |RMA    |
-|3          |Suspended |
-|4          |Disposed |
-|5          |Recalled |
 
