@@ -45,7 +45,7 @@
 ## 專案檔說明
 
 |專案名稱                 |說明                       |備註|
-|------------------------|---------------------------|--|
+|-----------------------|--------------------------|--|
 |Binodata.QQOO.Member.Web|娃娃機會員雲端管理系統專案    | |
 |Binodata.QQOO.Admin.Web|娃娃機裝置管理系統專案| |
 |Binodata.IoT.Library|IoT 系統所需要使用的專案            |於另一個Git儲存庫，[連結](https://bitbucket.org/binodataiot/binodata.iot.library)|
