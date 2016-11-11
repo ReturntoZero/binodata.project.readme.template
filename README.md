@@ -63,7 +63,7 @@
 	<tr>
         <td>Binodata.IoT.Library</td>
 		<td>系統所需要使用的專案</td>
-		<td>於另一個Git儲存庫，[連結](https://bitbucket.org/binodataiot/binodata.iot.library)</td>
+		<td>於另一個Git儲存庫，[連結](url)</td>
     </tr>
 </table>
 
